@@ -1,0 +1,30 @@
+@import '~sass/variables';
+
+.form {
+ padding: 1.5rem;  
+ background: $white;
+ box-shadow: 2px 3px 12px -2px rgba(0,0,0,0.3);
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-control {
+  display: block; 
+  padding: .375rem .75rem;
+}
+.submit-wrap {
+  text-align: right;
+}
+.required {
+  &:after{
+    content: "*";
+    color: $warning;
+    padding: .2rem;
+  }
+}
+@media (min-width: 576px) {
+  .form {
+    padding: 2.5rem;
+  }
+}
+

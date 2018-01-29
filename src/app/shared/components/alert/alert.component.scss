@@ -1,0 +1,19 @@
+@import '~sass/variables';
+
+.alert-wrapper {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+.alert-text {
+  padding: 1rem 2rem;
+  color: $white;
+  border-radius: 2px;
+}
+.warning {
+  background: rgba($primary, .6);
+}
+.success {
+  background: $white;
+  color: $success;
+  border: 1px solid $success;
+}

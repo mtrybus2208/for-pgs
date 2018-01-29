@@ -1,0 +1,16 @@
+@import '~sass/variables';
+
+.footer{
+  background: #222;
+  padding: 2rem;
+}
+.footer-brand {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  border-top: 1px solid $gray-600;
+  font-size: .9rem;
+  color: $gray-600;
+  padding-top: .75rem;
+}

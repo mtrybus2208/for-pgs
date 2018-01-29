@@ -1,0 +1,14 @@
+@import '~sass/variables';
+
+.card {
+  color: $gray-650;
+  max-width: 450px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1200px) { 
+  .card img{
+    min-height: 235px;
+  }
+ }

@@ -1,0 +1,13 @@
+@import '~sass/variables';
+
+.header {
+  border-bottom: 1px solid $gray-300;
+}
+.brand-img {
+  width: 100%;
+  max-height: 90px;
+  max-width: 90px;
+}
+.brand-wrapper {
+  min-height: 95px;
+}

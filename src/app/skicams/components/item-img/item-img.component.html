@@ -1,0 +1,8 @@
+<div class="img-wrapper">
+  <img
+    src="{{ imgSrc }}"
+    alt="{{ alt }}"
+    [@onLoadfade]="state"
+    (load)="state='in'"
+    class="responsive-img">
+</div>
